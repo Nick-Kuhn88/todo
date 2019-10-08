@@ -1,8 +1,12 @@
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
 <section class="todoapp">
   <header class="header">
     <h1>To-Do's</h1>
     <form id="new-form">
-      <input type="text" class="new-todo" placeholder="What needs to ne done?" />
+      <input type="text" class="new-todo" placeholder="What needs to be done?" />
     </form>
   </header>
 
@@ -19,3 +23,8 @@
   </section>
 </section>
 
+<section class="author">
+  A <%= link_to "todo-mvc", "http://todomvc.com" %>
+  application, built by
+  <%= link_to "Nick Kuhn.", "https://github.com/Nick-Kuhn88" %>
+</section>
